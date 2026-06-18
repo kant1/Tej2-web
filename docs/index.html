@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d1520" />
+  <title>TEJ'2 — Le mentor IA des mécaniciens</title>
+  <meta name="description" content="TEJ'2 est l'assistant intelligent dédié à l'automobile : diagnostic guidé, garage personnel et expertise mécanique au creux de la main." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TEJ'2 — Le mentor IA des mécaniciens" />
+  <meta property="og:description" content="Diagnostic guidé, garage personnel et expertise mécanique au creux de la main." />
+  <meta property="og:image" content="assets/icon-512.png" />
+
+  <link rel="icon" type="image/png" href="assets/tej-logo.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="TEJ'2 accueil">
+        <img src="assets/tej-logo.png" alt="Logo TEJ'2" class="brand-logo" />
+        <span class="brand-name">TEJ'<span class="accent">2</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#how">Comment ça marche</a>
+        <a href="#garage">Garage</a>
+        <a href="#pricing">Offres</a>
+        <a href="#download" class="btn btn-primary nav-cta">Lancer l'app</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="eyebrow">Mechanics Mentor · Propulsé par l'IA</span>
+        <h1>L'expertise mécanique,<br><span class="accent">au creux de la main.</span></h1>
+        <p class="hero-sub">
+          TEJ'2 accompagne les mécaniciens et passionnés d'automobile : diagnostic guidé,
+          garage personnel et réponses fiables, en temps réel, pour chaque véhicule.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary btn-lg">Démarrer maintenant</a>
+          <a href="#features" class="btn btn-ghost btn-lg">Découvrir &darr;</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>24/7</strong><span>Assistance instantanée</span></li>
+          <li><strong>100%</strong><span>Orienté atelier</span></li>
+          <li><strong>PWA</strong><span>Installable, hors-ligne</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="phone">
+          <div class="phone-glow"></div>
+          <div class="phone-screen">
+            <div class="chat-head">
+              <img src="assets/tej-logo.png" alt="" />
+              <div>
+                <p class="ch-name">TEJ'2</p>
+                <p class="ch-status">● en ligne</p>
+              </div>
+            </div>
+            <div class="chat-body">
+              <div class="bubble user">Ma Clio IV cale à froid, P0300 au scan…</div>
+              <div class="bubble bot">
+                Code P0300 = ratés multiples. On commence par l'allumage 👇
+                <span class="bot-list">
+                  <i>1.</i> Bougies & bobines<br>
+                  <i>2.</i> Vanne EGR encrassée<br>
+                  <i>3.</i> Pression carburant à froid
+                </span>
+              </div>
+              <div class="bars"><span></span><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust strip ===== -->
+  <div class="strip">
+    <div class="container strip-inner">
+      <span>Diagnostic OBD</span><span>•</span>
+      <span>Garage connecté</span><span>•</span>
+      <span>Historique d'interventions</span><span>•</span>
+      <span>Recherche véhicule</span><span>•</span>
+      <span>Conseils experts</span>
+    </div>
+  </div>
+
+  <!-- ===== Features ===== -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Fonctionnalités</span>
+        <h2>Tout l'atelier dans votre poche</h2>
+        <p>Conçu avec et pour les mécaniciens, TEJ'2 transforme chaque intervention en diagnostic structuré.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🔧</div>
+          <h3>Mentor IA spécialisé</h3>
+          <p>Posez votre problème en langage naturel : TEJ'2 raisonne comme un chef d'atelier et vous guide pas à pas.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🚗</div>
+          <h3>Garage personnel</h3>
+          <p>Enregistrez vos véhicules, leurs caractéristiques et leur historique pour des réponses adaptées à chaque modèle.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🔍</div>
+          <h3>Recherche véhicule</h3>
+          <p>Identifiez une motorisation, ses spécificités et ses pannes connues en quelques secondes.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">💬</div>
+          <h3>Historique des conversations</h3>
+          <p>Retrouvez chaque diagnostic passé, reprenez un dossier et capitalisez sur vos interventions.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">📲</div>
+          <h3>Application installable</h3>
+          <p>PWA disponible sur mobile, tablette et bureau. Fonctionne même dans les zones à faible connexion.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Réponses en temps réel</h3>
+          <p>Suggestions intelligentes, raccourcis et réponses instantanées pour ne jamais perdre de temps au pont.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Comment ça marche</span>
+        <h2>Du symptôme à la solution en 3 étapes</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Décrivez le problème</h3>
+          <p>Symptôme, bruit, code défaut… expliquez la panne avec vos propres mots.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Recevez un diagnostic guidé</h3>
+          <p>TEJ'2 hiérarchise les causes probables et propose un plan de vérification logique.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Réparez en confiance</h3>
+          <p>Procédures, points de contrôle et conseils d'expert pour valider la réparation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Garage showcase ===== -->
+  <section class="section" id="garage">
+    <div class="container split">
+      <div class="split-text">
+        <span class="eyebrow">Garage Perso</span>
+        <h2>Vos véhicules, votre contexte</h2>
+        <p>
+          Chaque réponse de TEJ'2 tient compte du véhicule sélectionné. Ajoutez vos voitures,
+          renseignez leurs spécificités et obtenez un accompagnement vraiment sur mesure.
+        </p>
+        <ul class="checklist">
+          <li>Fiches véhicules détaillées</li>
+          <li>Suivi des interventions</li>
+          <li>Diagnostics contextualisés par modèle</li>
+          <li>Accès rapide depuis le chat</li>
+        </ul>
+        <a href="#download" class="btn btn-primary">Configurer mon garage</a>
+      </div>
+      <div class="split-visual">
+        <div class="garage-card">
+          <div class="gc-row"><span class="gc-key">Véhicule</span><span class="gc-val">Renault Clio IV</span></div>
+          <div class="gc-row"><span class="gc-key">Motorisation</span><span class="gc-val">1.5 dCi 90</span></div>
+          <div class="gc-row"><span class="gc-key">Année</span><span class="gc-val">2016</span></div>
+          <div class="gc-row"><span class="gc-key">Dernier diag.</span><span class="gc-val accent">P0300 résolu</span></div>
+          <div class="gc-badge">Garage déverrouillé</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Offres</span>
+        <h2>Commencez gratuitement</h2>
+        <p>Un système de jetons transparent : vous ne payez que ce que vous utilisez.</p>
+      </div>
+
+      <div class="pricing">
+        <article class="plan">
+          <h3>Découverte</h3>
+          <p class="price">Gratuit</p>
+          <ul>
+            <li>Jetons offerts à l'inscription</li>
+            <li>Mentor IA complet</li>
+            <li>1 véhicule au garage</li>
+            <li>Historique des conversations</li>
+          </ul>
+          <a href="#download" class="btn btn-ghost">Essayer</a>
+        </article>
+
+        <article class="plan plan-featured">
+          <span class="plan-tag">Populaire</span>
+          <h3>Atelier</h3>
+          <p class="price">Jetons<span>/ à la demande</span></p>
+          <ul>
+            <li>Garage illimité</li>
+            <li>Diagnostics prioritaires</li>
+            <li>Recherche véhicule avancée</li>
+            <li>Support dédié</li>
+          </ul>
+          <a href="#download" class="btn btn-primary">Recharger en jetons</a>
+        </article>
+
+        <article class="plan">
+          <h3>Pro / Garage</h3>
+          <p class="price">Sur devis</p>
+          <ul>
+            <li>Comptes multi-utilisateurs</li>
+            <li>Intégrations atelier</li>
+            <li>Volume de jetons négocié</li>
+            <li>Accompagnement personnalisé</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Download / CTA ===== -->
+  <section class="cta" id="download">
+    <div class="container cta-inner">
+      <img src="assets/tej-logo.png" alt="" class="cta-logo" />
+      <h2>Prêt à passer la seconde&nbsp;?</h2>
+      <p>Lancez TEJ'2 directement dans votre navigateur. Aucune installation requise — ajoutez-la à votre écran d'accueil en un geste.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary btn-lg" id="launchApp">Ouvrir l'application</a>
+        <a href="#contact" class="btn btn-ghost btn-lg">Parler à l'équipe</a>
+      </div>
+      <p class="cta-note">⚙️ Remplacez le lien « Ouvrir l'application » par l'URL de votre app dans <code>script.js</code>.</p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <img src="assets/tej-logo.png" alt="Logo TEJ'2" class="brand-logo" />
+          <span class="brand-name">TEJ'<span class="accent">2</span></span>
+        </a>
+        <p>Le mentor IA des mécaniciens et passionnés d'automobile.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Produit</h4>
+          <a href="#features">Fonctionnalités</a>
+          <a href="#how">Comment ça marche</a>
+          <a href="#pricing">Offres</a>
+        </div>
+        <div>
+          <h4>Société</h4>
+          <a href="mailto:boostshop33@gmail.com">Contact</a>
+          <a href="#">Mentions légales</a>
+          <a href="#">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> TEJ'2 — Boost Shop SARL. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
