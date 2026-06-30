@@ -72,24 +72,43 @@
         <div class="phone">
           <div class="phone-glow"></div>
           <div class="phone-screen">
-            <div class="chat-head">
-              <img src="assets/tej-logo.png" alt="" />
-              <div>
-                <p class="ch-name">TEJ'2</p>
-                <p class="ch-status">● en ligne</p>
+            <div class="app-bar">
+              <span class="app-bar-icon">☰</span>
+              <div class="app-bar-brand">
+                <img src="assets/tej-logo.png" alt="" />
+                <span>Mechanics Mentor</span>
               </div>
+              <span class="token-pill">◇ 9 441</span>
             </div>
             <div class="chat-body">
               <div class="bubble user">Ma Clio IV cale à froid, P0300 au scan…</div>
               <div class="bubble bot">
                 Code P0300 = ratés multiples. On commence par l'allumage 👇
                 <span class="bot-list">
-                  <i>1.</i> Bougies & bobines<br>
+                  <i>1.</i> Bougies &amp; bobines<br>
                   <i>2.</i> Vanne EGR encrassée<br>
                   <i>3.</i> Pression carburant à froid
                 </span>
               </div>
-              <div class="bars"><span></span><span></span><span></span><span></span></div>
+
+              <p class="chips-label">Que veux-tu ensuite ?</p>
+              <div class="chips">
+                <span class="chip">Fiche devis imprimable</span>
+                <span class="chip">Estimation pièces + M.O.</span>
+                <span class="chip">Passer commande pièces</span>
+              </div>
+
+              <div class="accordion">
+                <span class="acc-row"><span class="acc-plus">+</span> Procédure détaillée <span class="acc-chevron">⌄</span></span>
+                <span class="acc-row"><span class="acc-plus">+</span> Couples de serrage <span class="acc-chevron">⌄</span></span>
+                <span class="acc-row"><span class="acc-plus">+</span> Pièces à commander <span class="acc-chevron">⌄</span></span>
+                <span class="acc-row"><span class="acc-plus">+</span> Points de vigilance <span class="acc-chevron">⌄</span></span>
+              </div>
+            </div>
+            <div class="app-input">
+              <span class="ai-plus">+</span>
+              <span class="ai-field">Une question, un problème ?</span>
+              <span class="ai-send">➤</span>
             </div>
           </div>
         </div>
@@ -119,32 +138,44 @@
 
       <div class="cards">
         <article class="card">
-          <div class="card-icon">🔧</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.1-2.1 2.6-2.6Z"/></svg>
+          </div>
           <h3>Mentor IA spécialisé</h3>
           <p>Posez votre problème en langage naturel : TEJ'2 raisonne comme un chef d'atelier et vous guide pas à pas.</p>
         </article>
         <article class="card">
-          <div class="card-icon">🚗</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 11l1.5-4.5A2 2 0 0 1 8.4 5h7.2a2 2 0 0 1 1.9 1.5L19 11"/><path d="M3 16v-2.5a2 2 0 0 1 1.3-1.9l.7-.6h14l.7.6A2 2 0 0 1 21 13.5V16a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/><circle cx="7" cy="13.5" r="1"/><circle cx="17" cy="13.5" r="1"/></svg>
+          </div>
           <h3>Garage personnel</h3>
           <p>Enregistrez vos véhicules, leurs caractéristiques et leur historique pour des réponses adaptées à chaque modèle.</p>
         </article>
         <article class="card">
-          <div class="card-icon">🔍</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
           <h3>Recherche véhicule</h3>
           <p>Identifiez une motorisation, ses spécificités et ses pannes connues en quelques secondes.</p>
         </article>
         <article class="card">
-          <div class="card-icon">💬</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-4-.9L3 21l1-4a8.4 8.4 0 0 1-1-4 8.5 8.5 0 0 1 9-8.4 8.4 8.4 0 0 1 9 6.9Z"/></svg>
+          </div>
           <h3>Historique des conversations</h3>
           <p>Retrouvez chaque diagnostic passé, reprenez un dossier et capitalisez sur vos interventions.</p>
         </article>
         <article class="card">
-          <div class="card-icon">📲</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          </div>
           <h3>Application installable</h3>
           <p>PWA disponible sur mobile, tablette et bureau. Fonctionne même dans les zones à faible connexion.</p>
         </article>
         <article class="card">
-          <div class="card-icon">⚡</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
+          </div>
           <h3>Réponses en temps réel</h3>
           <p>Suggestions intelligentes, raccourcis et réponses instantanées pour ne jamais perdre de temps au pont.</p>
         </article>
@@ -200,11 +231,58 @@
       </div>
       <div class="split-visual">
         <div class="garage-card">
-          <div class="gc-row"><span class="gc-key">Véhicule</span><span class="gc-val">Renault Clio IV</span></div>
-          <div class="gc-row"><span class="gc-key">Motorisation</span><span class="gc-val">1.5 dCi 90</span></div>
-          <div class="gc-row"><span class="gc-key">Année</span><span class="gc-val">2016</span></div>
-          <div class="gc-row"><span class="gc-key">Dernier diag.</span><span class="gc-val accent">P0300 résolu</span></div>
-          <div class="gc-badge">Garage déverrouillé</div>
+          <div class="garage-topbar">
+            <span class="gt-label">◆ Garage</span>
+            <span class="gt-select">Audi R8 V10 5.2 FSI ⌄</span>
+          </div>
+
+          <div class="garage-hero">
+            <h4 class="gh-title">AUDI <span class="accent">R8 V10 5.2 FSI</span></h4>
+            <p class="gh-meta">2011 · Essence · BX-776-FJ</p>
+            <div class="gh-photo">
+              <svg viewBox="0 0 220 90" fill="none" aria-hidden="true">
+                <path d="M12 64c0-4 3-6 8-7l18-3 14-13c6-5 13-8 22-8h34c10 0 19 4 27 11l13 11 16 4c8 1 13 4 13 10v6c0 3-2 5-5 5h-14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M40 70h120" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+                <circle cx="62" cy="70" r="13" fill="#0d1520" stroke="currentColor" stroke-width="2.4"/>
+                <circle cx="158" cy="70" r="13" fill="#0d1520" stroke="currentColor" stroke-width="2.4"/>
+                <circle cx="62" cy="70" r="5" fill="currentColor"/>
+                <circle cx="158" cy="70" r="5" fill="currentColor"/>
+                <path d="M70 37l34 0 22 12-56 0" stroke="currentColor" stroke-width="2" stroke-linejoin="round" opacity=".6"/>
+              </svg>
+              <span class="gh-zoom">⤢ Agrandir</span>
+            </div>
+          </div>
+
+          <div class="garage-actions">
+            <span class="gabtn primary">📷 Générer le visuel</span>
+            <span class="gabtn ghost">✦ À partir de la fiche</span>
+          </div>
+
+          <div class="garage-colors">
+            <span class="gc-caption">Couleur</span>
+            <span class="swatches">
+              <i style="background:#2f6fed"></i>
+              <i style="background:#e23b3b"></i>
+              <i style="background:#e9edf2"></i>
+              <i class="sel" style="background:var(--gold)"></i>
+              <i style="background:#2bbf6a"></i>
+              <i style="background:#8a4cff"></i>
+            </span>
+          </div>
+
+          <div class="garage-tabs">
+            <span class="gtab active">Identité</span>
+            <span class="gtab">Entretien</span>
+            <span class="gtab">Moteur</span>
+            <span class="gtab">Boîte</span>
+          </div>
+
+          <div class="garage-fields">
+            <div><label>Marque</label><span>Audi</span></div>
+            <div><label>Modèle</label><span>R8 V10 5.2 FSI</span></div>
+            <div><label>Année</label><span>2011</span></div>
+            <div><label>Carburant</label><span>Essence</span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -216,47 +294,81 @@
       <div class="section-head">
         <span class="eyebrow">Offres</span>
         <h2>Commencez gratuitement</h2>
-        <p>Un système de jetons transparent : vous ne payez que ce que vous utilisez.</p>
+        <p>Le plan gratuit offre <strong>30 tokens / mois</strong>. Passez à un abonnement pour plus de tokens, l'identification véhicule et le garage. Moteur Claude&nbsp;Opus&nbsp;4.8 sur tous les plans.</p>
       </div>
 
       <div class="pricing">
         <article class="plan">
-          <h3>Découverte</h3>
-          <p class="price">Gratuit</p>
+          <h3>Starter</h3>
+          <p class="price">3,99€<span>/ mois</span></p>
           <ul>
-            <li>Jetons offerts à l'inscription</li>
-            <li>Mentor IA complet</li>
-            <li>1 véhicule au garage</li>
-            <li>Historique des conversations</li>
+            <li>60 tokens / mois</li>
+            <li>Moteur Claude Opus 4.8</li>
+            <li>Identification véhicule : 3 / mois</li>
+            <li class="li-off">Analyse vidéo non incluse</li>
           </ul>
-          <a href="#download" class="btn btn-ghost">Essayer</a>
+          <a href="#download" class="btn btn-ghost">Choisir Starter</a>
         </article>
 
         <article class="plan plan-featured">
           <span class="plan-tag">Populaire</span>
-          <h3>Atelier</h3>
-          <p class="price">Jetons<span>/ à la demande</span></p>
+          <h3>Pro</h3>
+          <p class="price">14,99€<span>/ mois</span></p>
           <ul>
-            <li>Garage illimité</li>
-            <li>Diagnostics prioritaires</li>
-            <li>Recherche véhicule avancée</li>
-            <li>Support dédié</li>
+            <li>200 tokens / mois</li>
+            <li>Moteur Claude Opus 4.8</li>
+            <li>Identification véhicule : 10 / mois</li>
+            <li>Garage offert (2 premiers véhicules)</li>
+            <li>Toutes les fonctionnalités</li>
           </ul>
-          <a href="#download" class="btn btn-primary">Recharger en jetons</a>
+          <a href="#download" class="btn btn-primary">Choisir Pro</a>
         </article>
 
         <article class="plan">
-          <h3>Pro / Garage</h3>
-          <p class="price">Sur devis</p>
+          <h3>Élite</h3>
+          <p class="price">49,99€<span>/ mois</span></p>
           <ul>
-            <li>Comptes multi-utilisateurs</li>
-            <li>Intégrations atelier</li>
-            <li>Volume de jetons négocié</li>
-            <li>Accompagnement personnalisé</li>
+            <li>450 tokens / mois</li>
+            <li>Moteur Claude Opus 4.8</li>
+            <li>Identification véhicule : 30 / mois</li>
+            <li>Garage offert + véhicules illimités</li>
+            <li>Toutes les fonctionnalités</li>
           </ul>
-          <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+          <a href="#download" class="btn btn-ghost">Choisir Élite</a>
         </article>
       </div>
+
+      <div class="packs-head">
+        <h3>Recharge de tokens</h3>
+        <p>Recommandé en cas d'utilisation occasionnelle de TEJ'2.</p>
+      </div>
+      <div class="packs">
+        <article class="pack">
+          <span class="pack-name">Pack S</span>
+          <span class="pack-price">4,99€</span>
+          <span class="pack-tokens">+75 tokens</span>
+        </article>
+        <article class="pack">
+          <span class="pack-name">Pack M</span>
+          <span class="pack-price">12,99€</span>
+          <span class="pack-tokens">+250 tokens</span>
+        </article>
+        <article class="pack">
+          <span class="pack-name">Pack L</span>
+          <span class="pack-price">29,99€</span>
+          <span class="pack-tokens">+700 tokens</span>
+        </article>
+        <article class="pack">
+          <span class="pack-name">Pack XL</span>
+          <span class="pack-price">69,99€</span>
+          <span class="pack-tokens">+2 000 tokens</span>
+        </article>
+      </div>
+
+      <p class="pricing-note">
+        Tokens réinitialisés le 1<sup>er</sup> de chaque mois — non cumulables.
+        Pour une utilisation professionnelle, <a href="#contact">contactez-nous</a>.
+      </p>
     </div>
   </section>
 
@@ -270,7 +382,6 @@
         <a href="#" class="btn btn-primary btn-lg" id="launchApp">Ouvrir l'application</a>
         <a href="#contact" class="btn btn-ghost btn-lg">Parler à l'équipe</a>
       </div>
-      <p class="cta-note">⚙️ Remplacez le lien « Ouvrir l'application » par l'URL de votre app dans <code>script.js</code>.</p>
     </div>
   </section>
 
@@ -294,8 +405,8 @@
         <div>
           <h4>Société</h4>
           <a href="mailto:boostshop33@gmail.com">Contact</a>
-          <a href="#">Mentions légales</a>
-          <a href="#">Confidentialité</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="confidentialite.html">Confidentialité</a>
         </div>
       </div>
     </div>
